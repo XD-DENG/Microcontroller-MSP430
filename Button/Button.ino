@@ -23,11 +23,12 @@ void loop(){
   if (buttonState == HIGH) {     
     // turn LED on:    
     digitalWrite(ledPin, HIGH);  
-    Serial.println("The button is NOT pressed.");
+    Serial.println(1);
   } 
   else {
     // turn LED off:
     digitalWrite(ledPin, LOW); 
-    Serial.println("The button is pressed.");
+    Serial.println(0);
   }
+
 }
