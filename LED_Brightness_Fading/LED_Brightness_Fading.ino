@@ -4,8 +4,9 @@ int fadeAmount = 3;    // how many points to fade the LED by
 
 
 void setup()  { 
-  // declare pin 14 to be an output:
-  pinMode(GREEN_LED, OUTPUT);
+  // If we use analogWrite or analogRead,
+  // there is no need to use pinMode().
+  
 
 } 
 
