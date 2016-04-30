@@ -1,4 +1,4 @@
-int pin = RED_LED;
+int pin = GREEN_LED;
 
 void setup()
 {
